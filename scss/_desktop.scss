@@ -1,0 +1,37 @@
+@media (min-width: 500px) {
+  .card__stats {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 0 1.2rem;
+    width: 60%;
+    margin: 1rem auto 1.2rem;
+  }
+}
+
+@media (min-width: 820px) {
+  .card {
+    display: flex;
+  }
+  .header__img {
+    order: 1;
+    width: 50%;
+  }
+  .body {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  .card__stats {
+    justify-content: flex-start;
+    width: 100%;
+    margin: 1.2rem 0;
+  }
+
+  .card__title,
+  .card__body,
+  .card__stat {
+    text-align: left;
+  }
+}
