@@ -42,10 +42,11 @@
 }
 .hero__img {
   object-fit: cover;
-  opacity: 0.4;
+  opacity: 0.8;
   width: 100%;
   min-height: 100%;
   margin-bottom: -5px;
+  mix-blend-mode: multiply;
 }
 
 .card__stats {
